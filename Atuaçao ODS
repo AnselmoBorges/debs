@@ -1,0 +1,39 @@
+### Reunião PDO/ODS
+
+-- Volume de dados necessários:
+    - 321.45 TB (disponivel)/ 11,82 TB (usado sem fator de replicação)
+-- Frequencia do dado acessado:
+    - só quando precisa mas faz um teste anual
+-- Life cycle de dados:
+    - Vamos sugerir uma politica de compactação, retenção e exclusão
+-- Quais as origens:
+    - HDFS (Hive/Impala)
+-- Formatos dos arquivos:
+    - Parquet
+    - TXT
+-- Quais ferramentas de dataset:
+    - Hive
+    - Impala
+-- Quais ferramentas de visualização:
+    - QlikView (podemos usar PBI?)
+-- Entender como posso realizar o acesso:
+-- Separação dos containers:
+
+## Pessoas com que posso falar
+José Lucas candido
+
+### Databases Hive
+Databases:
+- db_ods
+- smart_ods
+- stbfx
+
+### Origens
+- Informática (NAS)
+    - Entrada: /sistemas/ods/srcfiles/funcional/
+    - Saida: /sistemas/ods/tgtfiles/
+
+- copia para o HDFS (a partir do source files)
+    - Entrada: /sistemas/ods/srcfiles/funcional/
+    - Saida: /sistemas/ods/tgtfiles/
+- 
